@@ -19,19 +19,19 @@ void loop() {
         if (acceleration.xAxis > maxXVal) {
            maxXVal = acceleration.xAxis;
         } else if (acceleration.xAxis < minXVal) {
-           minXVal =  acceleration.xAxis;
+           minXVal = acceleration.xAxis;
         }
         
         if (acceleration.yAxis > maxYVal) {
            maxYVal = acceleration.yAxis;
         } else if (acceleration.yAxis < minYVal) {
-           minYVal =  acceleration.yAxis;
+           minYVal = acceleration.yAxis;
         }
         
         if (acceleration.zAxis > maxZVal) {
            maxZVal = acceleration.zAxis;
         } else if (acceleration.zAxis < minZVal) {
-           minZVal =  acceleration.zAxis;
+           minZVal = acceleration.zAxis;
         }
         
         delay(10);
