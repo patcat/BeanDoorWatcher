@@ -22,7 +22,7 @@ serialPort.on("open", function () {
       request.post({
         url: "http://maker.ifttt.com/trigger/bean_door_open/with/key/YOURKEYHERE"
       }, function(error, response, body) {
-        console.log("Body response was ", body);
+        console.log(body);
         if (error) console.log("Error was ", error);
       });
     }
