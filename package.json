@@ -1,0 +1,11 @@
+{
+  "name": "BeanDoorWatcher",
+  "version": "1.0.0",
+  "description": "A demo connecting the Lightblue Bean accelerometer to a Node server via node-serialport",
+  "main": "index.js",
+  "author": "Patrick Catanzariti",
+  "dependencies": {
+    "serialport": "^1.7.4",
+    "request": "^2.61.0"
+  }
+}
