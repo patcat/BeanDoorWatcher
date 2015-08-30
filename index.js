@@ -5,10 +5,10 @@ var SerialPort = require("serialport").SerialPort,
     request = require('request');
 
 serialPort.on("open", function () {
-	console.log("Connected to LightBlue Bean serial port");
+  console.log("Connected to LightBlue Bean serial port");
 
-	serialPort.on("data", function(data) {
-		console.log("Data: " + data);
+  serialPort.on("data", function(data) {
+    console.log("Data: " + data);
     data = data + "";
 
     if (data == "CLOSED") {
@@ -26,5 +26,5 @@ serialPort.on("open", function () {
         if (error) console.log("Error was ", error);
       });
     }
-	});
+  });
 });
